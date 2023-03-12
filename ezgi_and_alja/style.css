@@ -1,19 +1,13 @@
 *{
 	margin:0;
 	padding:0;
-	font-family: sans-serif
+	font-family: sans-serif;
 }
+
 .banner{
 	width: 100%;
 	height:100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(./img/mainpage.jpg);
-	background-size: cover;
-	background-position: center;
-}
-.banner2{
-	width: 100%;
-	height:100vh;
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-86556987/86556987.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -25,10 +19,27 @@
 	text-align: center;
 	color: #fff;
 }
-.content h1{
+.content h1 {
 	font-size: 60px;
-	margin-top: 80px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eef3e9;
+    font-weight: 90;
+    text-align: center;
+    margin: auto;
 }
+
+.content h2 {
+    font-size: 30px;
+    padding: 15px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d4eec0;
+    font-weight: 50;
+    text-align: center;
+    margin: auto;
+}
+
 .content p{
 	margin: 20px auto;
 	font-weight: 100;
@@ -41,9 +52,9 @@ button{
 	margin: 20px 10px;
 	border-radius: 25px;
 	font-weight: bold;
-	border: 2px solid #009688;
+	border: 2px solid #61892F;
 	background: transparent;
-	color: #fff;
+	color: #61892F;
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
@@ -51,17 +62,23 @@ button{
 span{
 	background-color: #009688;
 	height: 100%;
-	weight: 0;
 	border-radius: 25px;
 	position: absolute;
 	left:0;
 	bottom:0;
 	z-index: -1;
 	transition: 0.5s;
+    text-align: center;
 }
-botton:hover span{
+.botton:hover span{
 	width: 100%;
 }
-botton:hover {
+.botton:hover {
 	border: none;
 }
+
+a {
+    color: #e1ebd6;
+    text-decoration: none;
+}
+
